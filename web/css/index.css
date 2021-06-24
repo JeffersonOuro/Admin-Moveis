@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/06/2021, 21:23:29
+    Author     : Jefferson
+*/
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body{
+    background-image: url(../img/004.jpg);
+    background-size: cover;
+}
+textarea:focus, imput:focus{
+outline: none;
+}
+a, label{
+    font-size: .8rem;
+}
+
+a:houver{
+    color: #08558B;
+     
+}
+/*container-login*/
+#login-container{
+    background-color: #323232;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    margin-top: 43vh;
+    border-radius: 10px;
+    text-align: center;   
+}
+/*Formulario*/
+form{
+    margin-top:  30px;
+    margin-bottom: 40px;
+}
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;    
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:#fff;
+    background-color: #08558B;
+    cursor: pointer;  
+}
+input[type="submit"]:hover{
+    background-color: #18223C;
+    transition: 10s;
+}
+h1,label, a , p{
+   color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+.form-control{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color:#fff;
+    background-color: #08558B;
+    cursor: pointer;  
+}

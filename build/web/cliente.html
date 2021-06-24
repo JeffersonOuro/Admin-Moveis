@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/cliente.css"/>
+        <title>Cliente</title>
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <div class="container-fluid bg-dark p-3">
+                <div class="row">
+                    <div class="col-sm-12 text-white text-center">
+                        <p class="mb-0">Pesquisa de Imoveis</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Busca-->
+
+        <nav>      
+            <form action="#" id="BuscaRapida" name="BuscaRapida" class="form-inline collapsed">           
+
+                <!--Comprar/Alugar-->               
+                <div class="form-group">
+                    <select name="boxcodtiponegocio" id="box1" class="form-control" >
+                        <option value="selecione" >Selecione</option>
+                        <option value="venda" >Comprar</option>
+                        <option value="locacao" >Alugar</option>  
+                    </select>              
+                </div>
+
+                <!--Tipos-->                      
+                <div class="form-group">    
+                    <select name="boxcodtipoimovel" id="box2" class="form-control">
+                        <option value="imoveis" selected="selected">Todos Tipos</option>
+                        <option value="apartamentos" >Apartamento</option>
+                        <option value="casas" >Casa</option>
+                        <option value="comercial" >Comercial</option>
+                    </select>
+                </div>
+
+                <!--Cidades-->
+                <div class="form-group">                                   
+                    <select name="boxcidade" size="1" id="box3" class="form-control">
+                        <option value="todas-as-cidades">Todas cidades</option>
+                        <option value="sp,8928,atibaia">Atibaia</option>
+                        <option value="sp,8956,barueri">Barueri</option>
+                        <option value="sp,8992,braganca-paulista">Campinas</option>
+                        <option value="sp,9038,capela-do-alto">Indaiatuba</option>
+                        <option value="sp,9261,itupeva">São José Dos Campos</option>
+                        <option value="sp,9668,sao-paulo">São Paulo</option>
+                    </select> 
+                </div>          
+                <!--Bairro-->
+                <div class="form-group">   
+                    <select name="tmp_boxregiao" size="1" id="box4" class="form-control">
+                        <option value="" selected="selected">BAIRRO</option>
+                        <option value="alto-de-pinheiros" >Alto De Pinheiros</option>
+                        <option value="bela-vista" >Bela Vista</option>
+                        <option value="brooklin" >Brooklin</option>
+                        <option value="campo-belo" >Campo Belo</option>
+                        <option value="cidade-jardim" >Cidade Jardim</option>
+                        <option value="higienopolis" >Higienópolis</option>
+                        <option value="indianopolis" >Indianópolis</option>
+                        <option value="itaim-bibi" >Itaim Bibi</option>
+                        <option value="jardim-europa" >Jardim Europa</option>
+                        <option value="moema" >Moema</option>
+                        <option value="morumbi" >Morumbi</option>
+                        <option value="santana" >Santana</option>
+                        <option value="vila-madalena" >Vila Madalena</option>
+                    </select>                      
+                </div>    
+                <input class="buscar" type="submit" value="Buscar"> 
+            </form>             
+        </nav>
+
+        <!--Lista de Imoveis/seleção-->
+        <section>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/a1.jpg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Detalhes do imóvel</h5>
+                            <p class="card-text"></p>                    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card ">
+                        <img src="img/a2.jpg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Detalhes do imóvel</h5>
+                            <p class="card-text"> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card ">
+                        <img src="img/a3.jpg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Detalhes do imóvel</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Carrinho de Imoveis-->
+        <aside> 
+
+        </aside>
+        <!--Rodapé-->
+        <footer>
+            <div class="container-fluid bg-dark p-3">
+                <div class="row">
+                    <div class="col-sm-12 text-white text-center">
+                        <p class="mb-0">Termos de Condição</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"/>
+        <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    <body>
+        <div id="login-container">
+            <h1>Login</h1>
+            <form action="">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite o Seu e-mail">
+                <label for="password">Senha</label>
+                <input type="password" name="password" placeholder="Digite a sua Senha"> 
+                <input type="submit" value="login">  
+                <select id="cargo" class="form-control" name="cargo">
+                    <option value="">Selecione...</option>
+                    <option href="cliente.html" value="1">Cliente </option>
+                    <option href="atendente.html" value="2">Atendente</option>
+                </select>
+                <div id="register-container">
+                    <p>Ainda não tem cadastro?</p>
+                    <a href="cadastro.html">Cadastrar</a>   
+                </div>
+            </form>
+        </div>     
+    </body>
+</html>

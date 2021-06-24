@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body{
+    background-image: url(../img/004.jpg);
+    background-size: cover;
+}
+textarea:focus, imput:focus{
+outline: none;
+}
+a, label{
+    font-size: .8rem;
+}
+
+a:houver{
+    color: #08558B;
+     
+}
+/*Formulario*/
+form{
+    margin-top:  30px;
+    margin-bottom: 60px;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #08558B;
+}
+
+/*****Botão--buscar******/
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:#fff;
+    background-color: #08558B;
+    cursor: pointer;  
+ /**********************/
+}
+input[type="submit"]:hover{
+    background-color: #18223C;
+    transition: 10s;
+}
+h1,label, a , p{
+   color: #fff;
+    margin-top: 50px;
+    font-weight: bold; 
+}
+
+.form-control{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 20px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color:#fff;
+    background-color: #08558B;
+    cursor: pointer; 
+}
+.form-group{
+    display: inline-block;
+    width: 10%;
+    margin-right: 0vw;
+    font-size: 5vw;
+    text-align: center;
+    padding: 0vw 0vw 0vw 5vw;
+    min-width: 20vw;
+}
+
+
+h5{
+    text-align: center;
+    color: #18223C;
+   
+}
+.card title{
+    color: #fff;
+}
